@@ -1,0 +1,90 @@
+import React from "react";
+import { Branding } from "./Branding";
+import { Graphic } from "./Graphic";
+import { MiscProjects } from "./MiscProjects";
+import { WebsiteDesign } from "./WebsiteDesign";
+import "./style.css";
+
+export const HomePage = () => {
+  return (
+    <div className="home-page">
+      <div className="div-2">
+        <div className="group">
+          <div className="overlap-group">
+            <div className="text-wrapper-4">view here</div>
+            <div className="SP-spline">
+              SP_1
+              <br />
+              2022
+              <br />
+              Spline, Photoshop
+            </div>
+          </div>
+        </div>
+        <div className="overlap-wrapper">
+          <div className="overlap">
+            <div className="frame">
+              <div className="frame-2">
+                <div className="banner">
+                  <div className="frame-3">
+                    <div className="text-wrapper-5">home</div>
+                    <img className="layer" alt="Layer" src="layer-3.png" />
+                    <div className="text-wrapper-6">contact</div>
+                  </div>
+                </div>
+                <div className="hero">
+                  <div className="RACHEL-HORVATH-wrapper">
+                    <div className="RACHEL-HORVATH">RACHEL*&nbsp;&nbsp;HORVATH</div>
+                  </div>
+                  <div className="frame-4">
+                    <Branding property1="default" />
+                    <WebsiteDesign divClassName="website-design-instance" text="web_design" />
+                    <MiscProjects text="misc_projects" />
+                    <Graphic />
+                  </div>
+                  <div className="ARTIST-BASED-IN-NEW-wrapper">
+                    <p className="ARTIST-BASED-IN-NEW">
+                      ARTIST BASED IN NEW YORK CITY&nbsp;&nbsp;&nbsp;&nbsp; SPECIALIZING IN DIGITAL DESIGN, VISUAL
+                      IDENTITIES &amp; FASHION.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="group-wrapper">
+                <div className="frame-wrapper">
+                  <div className="frame-5">
+                    <div className="text-wrapper-7">Selected Works</div>
+                    <div className="group-2">
+                      <img className="img" alt="Group" src="group-71.png" />
+                      <img className="group-3" alt="Group" src="group-69.png" />
+                      <img className="group-4" alt="Group" src="group-70.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="div-wrapper">
+              <div className="frame-6">
+                <div className="overlap-group-wrapper">
+                  <div className="overlap-group-2">
+                    <div className="group-5">
+                      <div className="group-6">
+                        <div className="text-wrapper-8">Top</div>
+                        <img className="arrow" alt="Arrow" src="arrow-1.svg" />
+                      </div>
+                      <div className="group-7">
+                        <div className="text-wrapper-9">rachela.horvath@gmail.com</div>
+                        <img className="group-8" alt="Group" src="group-77.svg" />
+                      </div>
+                      <img className="group-9" alt="Group" src="group-88.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
