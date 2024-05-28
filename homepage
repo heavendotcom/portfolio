@@ -88,3 +88,567 @@ export const HomePage = () => {
     </div>
   );
 };
+import React from "react";
+import { Branding } from "./Branding";
+import { Graphic } from "./Graphic";
+import { MiscProjects } from "./MiscProjects";
+import { WebsiteDesign } from "./WebsiteDesign";
+import "./style.css";
+
+export const BrandingConcepts = () => {
+  return (
+    <div className="branding-concepts">
+      <div className="div-2">
+        <div className="group">
+          <div className="overlap-group">
+            <a
+              className="text-wrapper-4"
+              href="https://my.spline.design/untitled-c34d9ffdbb8b8e05c775c128b3bb0618/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              view here
+            </a>
+            <div className="SP-spline">
+              SP_1
+              <br />
+              2022
+              <br />
+              Spline, Photoshop
+            </div>
+          </div>
+        </div>
+        <div className="frame">
+          <div className="frame-wrapper">
+            <div className="group-wrapper">
+              <div className="group-2">
+                <div className="group-3">
+                  <div className="text-wrapper-5">Top</div>
+                  <img className="arrow" alt="Arrow" src="arrow-1.svg" />
+                </div>
+                <div className="group-4">
+                  <a
+                    className="text-wrapper-6"
+                    href="mailto:rachela.horvath@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    rachela.horvath@gmail.com
+                  </a>
+                  <a href="https://www.instagram.com/rachel__horvath/" rel="noopener noreferrer" target="_blank">
+                    <img className="img" alt="Group" src="group-77.png" />
+                  </a>
+                </div>
+                <img className="group-5" alt="Group" src="group-88.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="div-wrapper">
+          <div className="frame-2">
+            <div className="frame-3">
+              <div className="frame-4">
+                <div className="banner">
+                  <div className="frame-5">
+                    <div className="text-wrapper-7">home</div>
+                    <img className="layer" alt="Layer" src="layer-3.png" />
+                    <div className="text-wrapper-8">contact</div>
+                  </div>
+                </div>
+                <div className="hero">
+                  <div className="RACHEL-HORVATH-wrapper">
+                    <div className="RACHEL-HORVATH">RACHEL*&nbsp;&nbsp;HORVATH</div>
+                  </div>
+                  <div className="frame-6">
+                    <Branding brandingClassName="branding-instance" property1="default" />
+                    <WebsiteDesign divClassName="website-design-instance" text="web_design" />
+                    <MiscProjects text="misc_projects" />
+                    <Graphic />
+                  </div>
+                  <div className="ARTIST-BASED-IN-NEW-wrapper">
+                    <p className="ARTIST-BASED-IN-NEW">
+                      ARTIST BASED IN NEW YORK CITY&nbsp;&nbsp;&nbsp;&nbsp; SPECIALIZING IN DIGITAL DESIGN, VISUAL
+                      IDENTITIES &amp; FASHION.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="frame-7">
+          <div className="maeve">
+            <img className="maeve-frame" alt="Maeve frame" src="maeve-frame.png" />
+            <div className="maeve-perfume-brand" />
+          </div>
+          <img className="vector" alt="Vector" src="vector-2.svg" />
+          <img className="vector-2" alt="Vector" src="vector-3.svg" />
+        </div>
+      </div>
+    </div>
+  );
+};
+import React from "react";
+import { Branding } from "./Branding";
+import { Graphic } from "./Graphic";
+import { MiscProjects } from "./MiscProjects";
+import { WebsiteDesign } from "./WebsiteDesign";
+import "./style.css";
+
+export const CreativeProjects = () => {
+  return (
+    <div className="creative-projects">
+      <div className="div-2">
+        <div className="text-wrapper-4">GRAPHIC DESIGN</div>
+        <div className="group">
+          <div className="overlap-group">
+            <a
+              className="text-wrapper-5"
+              href="https://my.spline.design/untitled-c34d9ffdbb8b8e05c775c128b3bb0618/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              view here
+            </a>
+            <div className="SP-spline">
+              SP_1
+              <br />
+              2022
+              <br />
+              Spline, Photoshop
+            </div>
+          </div>
+        </div>
+        <div className="frame">
+          <div className="frame-wrapper">
+            <div className="frame-2">
+              <div className="banner">
+                <div className="frame-3">
+                  <div className="text-wrapper-6">home</div>
+                  <div className="layer">
+                    <img className="img" alt="Group" src="group-89.png" />
+                  </div>
+                  <div className="text-wrapper-7">contact</div>
+                </div>
+              </div>
+              <div className="hero">
+                <div className="RACHEL-HORVATH-wrapper">
+                  <div className="RACHEL-HORVATH">RACHEL*&nbsp;&nbsp;HORVATH</div>
+                </div>
+                <div className="frame-4">
+                  <Branding property1="default" />
+                  <WebsiteDesign divClassName="website-design-instance" text="web_design" />
+                  <MiscProjects divClassName="misc-projects-instance" text="misc_projects" />
+                  <Graphic />
+                </div>
+                <div className="ARTIST-BASED-IN-NEW-wrapper">
+                  <p className="ARTIST-BASED-IN-NEW">
+                    ARTIST BASED IN NEW YORK CITY&nbsp;&nbsp;&nbsp;&nbsp; SPECIALIZING IN DIGITAL DESIGN, VISUAL
+                    IDENTITIES &amp; FASHION.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="group-wrapper">
+            <div className="group-2">
+              <div className="overlap">
+                <div className="lisboa">
+                  Lisboa
+                  <br />
+                  2023
+                  <br />
+                  Photoshop
+                </div>
+                <div className="frame-5">
+                  <div className="overlap-wrapper">
+                    <div className="overlap-2">
+                      <div className="overlap-group-wrapper">
+                        <div className="overlap-group-2">
+                          <img className="element" alt="Element" src="000390550006-2.png" />
+                          <p className="i-transformed-a">
+                            I transformed a digital painting I made into a chiffon scarf.&nbsp;&nbsp;The subject matter
+                            of the design is comprised of photos I’ve taken along my travels that have been collaged and
+                            digitally manipulated in Photoshop.
+                            <br />
+                            <br />
+                            This is Lisboa 001.
+                          </p>
+                          <div className="group-3">
+                            <img className="LISBOA" alt="Lisboa" src="LISBOA-1.png" />
+                            <img className="element-2" alt="Element" src="001-2-1.png" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="div-wrapper">
+                        <div className="overlap-3">
+                          <div className="this-is-an-ongoing-wrapper">
+                            <p className="this-is-an-ongoing">
+                              This is an ongoing project that I plan on expanding upon by experimenting with different
+                              fabrics, designs, and sizes.&nbsp;&nbsp;I am working towards creating a capsule collection
+                              of wearable pieces with my paintings on them.
+                              <br />
+                              <br />
+                              My travels and the photographs, notes, and drawings I record while abroad continue to fuel
+                              my creative process.
+                            </p>
+                          </div>
+                          <div className="group-4">
+                            <div className="overlap-4">
+                              <img className="dennis-scarf" alt="Dennis scarf" src="dennis-scarf-1-1.png" />
+                              <div className="overlap-5">
+                                <div className="overlap-group-3">
+                                  <img
+                                    className="llisbon-scarf-me"
+                                    alt="Llisbon scarf me"
+                                    src="llisbon-scarf-me-1-1.png"
+                                  />
+                                  <img className="scarfportrait" alt="Scarfportrait" src="scarfportrait-6-1.png" />
+                                </div>
+                                <img className="the-scarf" alt="The scarf" src="the-scarf-1.png" />
+                              </div>
+                            </div>
+                            <div className="scarf-movement-short" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="group-5">
+                <div className="frame-6">
+                  <div className="group-6">
+                    <img className="mail-order-text" alt="Mail order text" src="mail-order-text-1.png" />
+                    <div className="group-7">
+                      <img className="screenshot" alt="Screenshot" src="screenshot-2024-01-23-at-5-25-1.png" />
+                      <div className="screen-recording" />
+                      <img
+                        className="mail-order-screen"
+                        alt="Mail order screen"
+                        src="mail-order-screen-recording-landing-page-1.png"
+                      />
+                    </div>
+                  </div>
+                  <div className="group-8">
+                    <div className="frame-7">
+                      <div className="i-contributed-to-the-wrapper">
+                        <p className="i-contributed-to-the">
+                          I contributed to the creation of a&nbsp;&nbsp;zine called Mail Order and designed a website
+                          for it, allowing users to submit for upcoming issues.
+                        </p>
+                      </div>
+                    </div>
+                    <p className="p">Made using Spline, Photoshop, and Figma</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="frame-8">
+            <div className="frame-9">
+              <div className="frame-10">
+                <div className="group-9">
+                  <div className="group-10">
+                    <div className="text-wrapper-8">Top</div>
+                    <img className="arrow" alt="Arrow" src="arrow-1.svg" />
+                  </div>
+                  <div className="group-11">
+                    <a
+                      className="text-wrapper-9"
+                      href="mailto:rachela.horvath@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      rachela.horvath@gmail.com
+                    </a>
+                    <a href="https://www.instagram.com/rachel__horvath/" rel="noopener noreferrer" target="_blank">
+                      <img className="group-12" alt="Group" src="group-77.png" />
+                    </a>
+                  </div>
+                  <img className="group-13" alt="Group" src="group-88.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+import React from "react";
+import { Branding } from "./Branding";
+import { Graphic } from "./Graphic";
+import { MiscProjects } from "./MiscProjects";
+import { WebsiteDesign } from "./WebsiteDesign";
+import "./style.css";
+
+export const GraphicDesign = () => {
+  return (
+    <div className="graphic-design">
+      <div className="div-2">
+        <div className="group">
+          <div className="overlap-group">
+            <a
+              className="text-wrapper-4"
+              href="https://my.spline.design/untitled-c34d9ffdbb8b8e05c775c128b3bb0618/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              view here
+            </a>
+            <div className="SP-spline">
+              SP_1
+              <br />
+              2022
+              <br />
+              Spline, Photoshop
+            </div>
+          </div>
+        </div>
+        <div className="overlap">
+          <div className="frame">
+            <div className="frame-wrapper">
+              <div className="frame-2">
+                <div className="banner">
+                  <div className="frame-3">
+                    <div className="text-wrapper-5">home</div>
+                    <div className="layer">
+                      <img className="img" alt="Group" src="group-89.png" />
+                    </div>
+                    <div className="text-wrapper-6">contact</div>
+                  </div>
+                </div>
+                <div className="hero">
+                  <div className="RACHEL-HORVATH-wrapper">
+                    <div className="RACHEL-HORVATH">RACHEL*&nbsp;&nbsp;HORVATH</div>
+                  </div>
+                  <div className="frame-4">
+                    <Branding property1="default" />
+                    <WebsiteDesign divClassName="website-design-instance" text="web_design" />
+                    <MiscProjects text="misc_projects" />
+                    <Graphic divClassName="graphic-instance" />
+                  </div>
+                  <div className="ARTIST-BASED-IN-NEW-wrapper">
+                    <p className="ARTIST-BASED-IN-NEW">
+                      ARTIST BASED IN NEW YORK CITY&nbsp;&nbsp;&nbsp;&nbsp; SPECIALIZING IN DIGITAL DESIGN, VISUAL
+                      IDENTITIES &amp; FASHION.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="framgraphic-design">
+              <div className="div-wrapper">
+                <div className="frame-5">
+                  <img
+                    className="TOF-true-detective"
+                    alt="Tof true detective"
+                    src="TOF-true-detective-salon-poster-final-4000x5000-copy-1.png"
+                  />
+                  <p className="temple-of-friendship">
+                    Temple of Friendship Salon poster
+                    <br />
+                    Photoshop
+                  </p>
+                  <div className="frame-6">
+                    <div className="frame-7">
+                      <img className="img-2" alt="Tonic mag vol dark" src="tonic-mag-vol-1-dark-cover-1.png" />
+                      <p className="tonic-mag-cover-and">
+                        Tonic Mag Cover and inside page with quote excerpt
+                        <br />
+                        Photoshop
+                      </p>
+                    </div>
+                    <img className="img-2" alt="Zine aidan s page" src="zine-aidan-s-page-1.png" />
+                  </div>
+                  <div className="frame-8">
+                    <div className="frame-9">
+                      <img className="chrome-wave" alt="Chrome wave" src="chrome-wave-1.png" />
+                      <div className="logo-concept">
+                        Logo Concept <br />
+                        Photoshop/Illustrator
+                      </div>
+                    </div>
+                    <div className="frame-10">
+                      <img className="chrome-pearls-cd" alt="Chrome pearls cd" src="chrome-pearls-cd-mockup-1.png" />
+                      <div className="chrome-pearls-album">
+                        Chrome Pearls Album Art
+                        <br />
+                        Photoshop
+                      </div>
+                    </div>
+                  </div>
+                  <div className="frame-11">
+                    <div className="frame-12">
+                      <img className="img-3" alt="Vertigo POSTER" src="VERTIGO-POSTER-1.png" />
+                      <div className="VERTIGO-poster">
+                        VERTIGO Poster
+                        <br />
+                        Photoshop/Illustrator
+                      </div>
+                    </div>
+                    <div className="frame-12">
+                      <img className="img-3" alt="Butterflies" src="butterflies-1.png" />
+                      <div className="COMPLEX-SIMPLICITY">
+                        COMPLEX SIMPLICITY Poster
+                        <br />
+                        Photoshop/Illustrator
+                      </div>
+                    </div>
+                  </div>
+                  <div className="frame-12">
+                    <img
+                      className="desert-chrome-shirt"
+                      alt="Desert chrome shirt"
+                      src="desert-chrome-shirt-draft-1.png"
+                    />
+                    <div className="logo-t-SHIRT-concept">
+                      Logo T-SHIRT Concept
+                      <br />
+                      Photoshop
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="frame-13">
+            <div className="frame-14">
+              <div className="group-wrapper">
+                <div className="group-2">
+                  <div className="group-3">
+                    <div className="text-wrapper-7">Top</div>
+                    <img className="arrow" alt="Arrow" src="arrow-1.svg" />
+                  </div>
+                  <div className="group-4">
+                    <a
+                      className="text-wrapper-8"
+                      href="mailto:rachela.horvath@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      rachela.horvath@gmail.com
+                    </a>
+                    <a href="https://www.instagram.com/rachel__horvath/" rel="noopener noreferrer" target="_blank">
+                      <img className="group-5" alt="Group" src="group-77.png" />
+                    </a>
+                  </div>
+                  <img className="group-6" alt="Group" src="group-88.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+import React from "react";
+import { Branding } from "./Branding";
+import { Graphic } from "./Graphic";
+import { MiscProjects } from "./MiscProjects";
+import { WebsiteDesign } from "./WebsiteDesign";
+import "./style.css";
+
+export const WebDesign = () => {
+  return (
+    <div className="web-design">
+      <div className="div-2">
+        <div className="group">
+          <div className="overlap-group">
+            <a
+              className="text-wrapper-4"
+              href="https://my.spline.design/untitled-c34d9ffdbb8b8e05c775c128b3bb0618/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              view here
+            </a>
+            <div className="SP-spline">
+              SP_1
+              <br />
+              2022
+              <br />
+              Spline, Photoshop
+            </div>
+          </div>
+        </div>
+        <div className="frame">
+          <div className="group-2">
+            <img className="screen-shot" alt="Screen shot" src="screen-shot-2023-02-02-at-5-17-2.png" />
+            <img className="vygo-scroll" alt="Vygo scroll" src="vygo-scroll-2-1.png" />
+            <img
+              className="screen-recording"
+              alt="Screen recording"
+              src="screen-recording-2024-01-23-at-3-17-36-PM-1.png"
+            />
+          </div>
+          <div className="group-3">
+            <div className="overlap-group-2">
+              <div className="text-wrapper-5">Made using Photoshop/Figma/Webflow</div>
+              <a className="text-wrapper-6" href="http://WWW.VYGOVINTAGE.COM" rel="noopener noreferrer" target="_blank">
+                view here
+              </a>
+            </div>
+            <div className="text-wrapper-7">VYGO</div>
+          </div>
+        </div>
+        <div className="frame-wrapper">
+          <div className="div-wrapper">
+            <div className="group-wrapper">
+              <div className="group-4">
+                <div className="group-5">
+                  <div className="text-wrapper-8">Top</div>
+                  <img className="arrow" alt="Arrow" src="arrow-1.svg" />
+                </div>
+                <div className="group-6">
+                  <a
+                    className="text-wrapper-9"
+                    href="mailto:rachela.horvath@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    rachela.horvath@gmail.com
+                  </a>
+                  <a href="https://www.instagram.com/rachel__horvath/" rel="noopener noreferrer" target="_blank">
+                    <img className="img" alt="Group" src="group-77.png" />
+                  </a>
+                </div>
+                <img className="logo" alt="Logo" src="logo.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="group-7">
+          <div className="frame-2">
+            <div className="banner">
+              <div className="frame-3">
+                <div className="text-wrapper-10">home</div>
+                <img className="layer" alt="Layer" src="layer-3.png" />
+                <div className="text-wrapper-11">contact</div>
+              </div>
+            </div>
+            <div className="hero">
+              <div className="RACHEL-HORVATH-wrapper">
+                <div className="RACHEL-HORVATH">RACHEL*&nbsp;&nbsp;HORVATH</div>
+              </div>
+              <div className="frame-4">
+                <Branding property1="default" />
+                <WebsiteDesign divClassName="website-design-instance" text="web_design" to="/web-design" />
+                <MiscProjects text="misc_projects" />
+                <Graphic />
+              </div>
+              <div className="ARTIST-BASED-IN-NEW-wrapper">
+                <p className="ARTIST-BASED-IN-NEW">
+                  ARTIST BASED IN NEW YORK CITY&nbsp;&nbsp;&nbsp;&nbsp; SPECIALIZING IN DIGITAL DESIGN, VISUAL
+                  IDENTITIES &amp; FASHION.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
